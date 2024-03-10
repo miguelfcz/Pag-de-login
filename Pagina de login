@@ -4,57 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="miguel">
-        <style>
-            body{
-                background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/07/18/Cyberpunk-City-Street-Scifi-Wallpaper-Graphics-74866949-1.jpg);
-                background-size: 100% ;
-                }
-                        figure{
-                text-align: center;
-                }
-                .img1{
-                        border-radius: 50%;
-                        border: solid rgb(240, 58, 115);
-                }
-                .p1{
-                        text-align: center;
-                        color: white;
-                }
-                .in1{
-                        border: solid purple;
-                        width: 180px;
-                        height: 20px;
-                }
-                .in2{
-                        border: solid purple;
-                        width: 180px;
-                        height: 20px;
-                }
-                 button{
-                        background-color: green;
-                        align-items: left;
-                        width: 190px;
-                        height: 30px;
-                        border-radius:1ch;
-                        font-weight: bold;
-                 }
-                 .p2{
-                        text-align: center;
-                 }
-        </style>
+        <link rel="stylesheet" href="desafio.css">
         <title>Pag login</title>
     </head>
     <body>
-        <main>
-         <figure>
-            <img class="img1" src="https://img.freepik.com/vetores-premium/vetor-liso-dos-desenhos-animados-do-computador-estilo-de-desenho-animado-plano-premium-vector_513914-12.jpg" width="300px" height="300px">
-        </figure>
-        <p class="p1">
-        <b>Email</b><br><input class="in1" type="text" id="email" name="Email">
-        <br><br>
-        <b>Senha</b><br><input class="in2" type="text" id="senha" name="Senha">
-        </p>
-        <p class="p2"><button onclick="alert('Peguei teu email')" class="b1">Enviar</button></p>
+        <div id="fundo">
+           <main>
+                <figure>
+                        <img class="img1" src="https://img.odcdn.com.br/wp-content/uploads/2017/06/20170609141843.jpg" width="130px" height="130px">
+                </figure>
+
+                <p class="p1">
+                <b>Login</b><br><input class="in1" type="text" id="login" name="login">
+                
+                <br><br>
+                
+                <b>Password</b><br><input class="in2" type="password" id="senha" name="Senha">
+                </p>
+                <p class="p2"><button onclick="alert('Login ou senha incorretos!')" class="b1">Entrar</button></p>
         </main>
+        </div> 
     </body>
 </html>
